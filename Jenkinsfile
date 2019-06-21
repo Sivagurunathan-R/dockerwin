@@ -33,7 +33,7 @@ pipeline {
     
       steps{
       
-        bat 'docker run -d -p 8080:8080 -p 50000:50000 jenkins/jenkins'
+        bat 'docker run -d -p 2081:2081 -p 50000:50000 jenkins/jenkins'
       }
     }
   }
