@@ -28,5 +28,13 @@ pipeline {
         bat 'docker version'
       }
     }
+    
+    stage('build image'){
+    
+      steps{
+      
+        bat 'docker.build("sivagurunathan123/dockertest1")'
+      }
+    }
   }
 }
