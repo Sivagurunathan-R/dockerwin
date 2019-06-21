@@ -13,7 +13,7 @@ pipeline {
       
         echo  'executing docker command'
       
-        bat docker version
+        bat 'docker version'
       }
     }
   }
