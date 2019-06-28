@@ -33,7 +33,7 @@ pipeline {
     
       steps{
       
-        bat 'docker images'
+        bat 'ls'
       }
     }
   }
