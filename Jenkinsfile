@@ -33,7 +33,7 @@ pipeline {
     
       steps{
       
-        bat 'ls'
+        bat 'docker build -t dockerwin/new:v1 .'
       }
     }
   }
