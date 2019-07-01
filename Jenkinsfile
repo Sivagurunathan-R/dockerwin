@@ -29,11 +29,11 @@ pipeline {
       }
     }
     
-    stage('build image'){
+    stage('heroku command'){
     
       steps{
       
-        bat 'docker build -t dockerwin/new:v1 .'
+        bat 'heroku '
       }
     }
   }
